@@ -7,13 +7,11 @@ The purpose of this step by step tutorial is to provide a very simple example of
 - [Docker Desktop for Mac
   ](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
 
-- Node v14.15.0 or newer
+- Node 14.15.3 or newer
 
-- Rails 6.0.3.4 or newer
+- Rails 6.1.0 or newer
 
-- Ruby 2.7.2 or newer
-
-- Rails 6.0.3.4 or newer
+- Ruby 3.0.0 or newer
 
 - Yarn 1.22.10 or newer
 
@@ -43,7 +41,7 @@ Note: This tutorial was updated on macOS 10.15.7.
     docker-compose exec some-scylla nodetool status
     ```
 
-    Note: One should see that the node is up (i.e. UN) and operational similar to the following:
+    Note: One should see that the node status as Up Normal (UN) that looks similar to the following:
 
     ```text
     Datacenter: datacenter1
