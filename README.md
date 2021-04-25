@@ -7,15 +7,15 @@ The purpose of this step by step tutorial is to provide a very simple example of
 - [Docker Desktop for Mac
   ](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
 
-- Node 14.15.3 or newer
+- Node 14.16.0 or newer
 
-- Rails 6.1.0 or newer
+- Rails 6.1.3.1 or newer
 
-- Ruby 3.0.0 or newer
+- Ruby 3.0.1 or newer
 
 - Yarn 1.22.10 or newer
 
-Note: This tutorial was updated on macOS 10.15.7.
+Note: This tutorial was updated on macOS 11.2.3.
 
 ## Communication
 
