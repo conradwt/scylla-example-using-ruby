@@ -9,7 +9,7 @@ The purpose of this step by step tutorial is to provide a very simple example of
 
 - Node 14.17.1 or newer
 
-- Rails 6.1.3.2 or newer
+- Rails 6.1.4 or newer
 
 - Ruby 3.0.1 or newer
 
