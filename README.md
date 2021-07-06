@@ -7,7 +7,7 @@ The purpose of this step by step tutorial is to provide a very simple example of
 - [Docker Desktop for Mac
   ](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
 
-- Node 14.17.1 or newer
+- Node 14.17.2 or newer
 
 - Rails 6.1.4 or newer
 
