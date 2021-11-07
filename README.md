@@ -152,7 +152,7 @@ Note: This tutorial was updated on macOS 11.6.1.
 
 ## Support
 
-Bug reports and feature requests can be filed for the scylla-example-using-rails project here:
+Bug reports and feature requests can be filed for the scylla-example-using-ruby project here:
 
 - [File Bug Reports and Features](https://github.com/conradwt/scylla-example-using-ruby/issues)
 
