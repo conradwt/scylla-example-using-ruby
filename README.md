@@ -1,6 +1,6 @@
-# Scylla Example Using Rails
+# Scylla Example Using Ruby
 
-The purpose of this step by step tutorial is to provide a very simple example of configuring and using Scylla database engine with the Rails web framework for development.
+The purpose of this step by step tutorial is to provide a very simple example of configuring and using Scylla database engine with the Ruby Language.
 
 ## Requirements
 
@@ -9,13 +9,13 @@ The purpose of this step by step tutorial is to provide a very simple example of
 
 - Node 14.17.2 or newer
 
-- Rails 6.1.4 or newer
+- Rails 6.1.4.1 or newer
 
 - Ruby 3.0.2 or newer
 
-- Yarn 1.22.10 or newer
+- Yarn 1.22.17 or newer
 
-Note: This tutorial was updated on macOS 11.4.
+Note: This tutorial was updated on macOS 11.6.1.
 
 ## Communication
 
@@ -154,7 +154,7 @@ Note: This tutorial was updated on macOS 11.4.
 
 Bug reports and feature requests can be filed for the scylla-example-using-rails project here:
 
-- [File Bug Reports and Features](https://github.com/conradwt/scylla-example-using-rails/issues)
+- [File Bug Reports and Features](https://github.com/conradwt/scylla-example-using-ruby/issues)
 
 ## Contact
 
