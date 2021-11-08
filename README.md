@@ -136,10 +136,10 @@ Note: This tutorial was updated on macOS 11.6.1.
     docker-compose down
     ```
 
-16. Remove volume(s)
+16. Cleanup Docker artifacts
 
     ```zsh
-    docker volume prune
+    docker system prune -f -a --volumes
     ```
 
 ---
