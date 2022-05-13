@@ -1,8 +1,6 @@
-version: '3'
-
 services:
   some-scylla:
-    image: scylladb/scylla:4.2.0
+    image: scylladb/scylla:4.6.3
     container_name: some-scylla
     ports:
       - '9042:9042'
