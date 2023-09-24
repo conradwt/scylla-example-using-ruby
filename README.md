@@ -25,10 +25,11 @@ Note: This tutorial was updated on macOS 13.5.2.
 
 1.  Open new terminal window
 
-2.  Generate a new Rails application
+2.  Create the project directory
 
     ```zsh
-    rails _5.2.8.1_ new blog ---skip-active-record --skip-active-storage -T --skip-bundle --skip-webpack-install --skip-javascript --no-rc
+    mkdir blog
+    cd blog
     ```
 
 3.  Start a single node cluster
@@ -57,28 +58,33 @@ Note: This tutorial was updated on macOS 13.5.2.
     Note: Non-system keyspaces don't have the same replication settings, effective ownership information is meaningless
     ```
 
-5.  Add the Ruby cequel gem
+5.  Generate a new Rails application
 
     ```zsh
-    cd blog
+    rails _5.2.8.1_ new . ---skip-active-record --skip-active-storage -T --skip-bundle --skip-webpack-install --skip-javascript --no-rc
+    ```
+
+6.  Add the Ruby cequel gem
+
+    ```zsh
     bundle add i18n --version "= 1.8.11"
     bundle add cequel
     bundle add activemodel-serializers-xml
     ```
 
-6.  Generate scaffold of the application
+7.  Generate scaffold of the application
 
     ```zsh
     rails g scaffold post title body
     ```
 
-7.  Add the following as the first route within config/routes.rb file:
+8.  Add the following as the first route within config/routes.rb file:
 
     ```ruby
     root 'posts#index'
     ```
 
-8.  Create app/models/post.rb file with the following content:
+9.  Create app/models/post.rb file with the following content:
 
     ```ruby
     class Post
@@ -92,49 +98,49 @@ Note: This tutorial was updated on macOS 13.5.2.
     end
     ```
 
-9.  Create a default configuration file
+10. Create a default configuration file
 
     ```zsh
     rails g cequel:configuration
     ```
 
-10. Initialize keyspace (.i.e. database)
+11. Initialize keyspace (.i.e. database)
 
     ```zsh
     rails cequel:keyspace:create
     ```
 
-11. Synchronize your Rails model schemas with the keyspace
+12. Synchronize your Rails model schemas with the keyspace
 
     ```zsh
     rails cequel:migrate
     ```
 
-12. Start the Rails server
+13. Start the Rails server
 
     ```
     rails s
     ```
 
-13. Play with the application
+14. Play with the application
 
     ```zsh
     open http://localhost:3000
     ```
 
-14. Remove the keyspace
+15. Remove the keyspace
 
     ```zsh
     rails cequel:keyspace:drop
     ```
 
-15. Stop a single node cluster
+16. Stop a single node cluster
 
     ```zsh
     docker-compose down
     ```
 
-16. Cleanup Docker artifacts
+17. Cleanup Docker artifacts
 
     ```zsh
     docker system prune -f -a --volumes
