@@ -25,13 +25,20 @@ Note: This tutorial was updated on macOS 13.5.2.
 
 1.  Open new terminal window
 
-2.  Start a single node cluster
+2.  Generate a new Rails application
 
     ```zsh
+    rails _5.2.8.1_ new blog ---skip-active-record --skip-active-storage -T --skip-bundle --skip-webpack-install --skip-javascript --no-rc
+    ```
+
+3.  Start a single node cluster
+
+    ```zsh
+    wget https://github.com/conradwt/scylla-example-using-ruby/blob/main/docker-compose.yml
     docker-compose up -d
     ```
 
-3.  Check the status of your cluster
+4.  Check the status of your cluster
 
     ```zsh
     docker-compose exec some-scylla nodetool status
@@ -48,12 +55,6 @@ Note: This tutorial was updated on macOS 13.5.2.
     UN  172.19.0.2  582.5 KB   256          ?       e61cf276-c860-4990-bf03-37161414aed2  rack1
 
     Note: Non-system keyspaces don't have the same replication settings, effective ownership information is meaningless
-    ```
-
-4.  Generate a new Rails application
-
-    ```zsh
-    rails _5.2.8.1_ new blog ---skip-active-record --skip-active-storage -T --skip-bundle --skip-webpack-install --skip-javascript --no-rc
     ```
 
 5.  Add the Ruby cequel gem
