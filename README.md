@@ -149,13 +149,6 @@ Note: This tutorial was updated on macOS 13.5.2.
     ```zsh
     docker-compose down
     ```
-
-18. Cleanup Docker artifacts
-
-    ```zsh
-    docker system prune -f -a --volumes
-    ```
-
 ---
 
 ## References
