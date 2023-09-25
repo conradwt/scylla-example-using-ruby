@@ -4,3 +4,8 @@ services:
     container_name: some-scylla
     ports:
       - '9042:9042'
+    volumes:
+      - scylla-data:/var/lib/scylla
+
+volumes:
+  scylla-data: {}

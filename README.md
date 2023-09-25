@@ -40,6 +40,11 @@ Note: This tutorial was updated on macOS 13.5.2.
         container_name: some-scylla
         ports:
           - '9042:9042'
+        volumes:
+          - scylla-data:/var/lib/scylla
+
+    volumes:
+      scylla-data: {}
     ```
 
 4.  Start a single node cluster
@@ -149,6 +154,7 @@ Note: This tutorial was updated on macOS 13.5.2.
     ```zsh
     docker-compose down
     ```
+
 ---
 
 ## References
