@@ -70,6 +70,7 @@ Note: This tutorial was updated on macOS 13.5.2.
 6.  Generate a new Rails application
 
     ```zsh
+    gem install rails -v '5.2.8.1'
     rails _5.2.8.1_ new . --skip-active-record --skip-active-storage -T --skip-bundle --skip-webpack-install --skip-javascript --no-rc
     ```
 
