@@ -4,8 +4,7 @@ The purpose of this step by step tutorial is to provide a very simple example of
 
 ## Requirements
 
-- [Docker Desktop for Mac
-  ](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop) 4.23.0 or newer
 
 - Rails >= 5.2.8.1 and < 6
 
