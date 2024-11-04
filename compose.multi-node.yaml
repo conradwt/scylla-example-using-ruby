@@ -1,6 +1,6 @@
 services:
   some-scylla:
-    image: scylladb/scylla:4.6.3
+    image: scylladb/scylla:6.2
     container_name: some-scylla
     ports:
       - '9042:9042'
