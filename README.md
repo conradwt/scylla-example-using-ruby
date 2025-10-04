@@ -11,7 +11,7 @@ The purpose of this step by step tutorial is to provide a very simple example of
 
 - Rails 6.1.7.7 or newer
 
-- Ruby 3.3.2 or newer
+- Ruby 3.4.5 or newer
 
 - Yarn 1.22.19 or newer
 
@@ -170,4 +170,4 @@ This repository is released under the [MIT License](./LICENSE.md).
 
 ## Copyright
 
-Copyright &copy; 2020 - 2024 Conrad Taylor. All rights reserved.
+Copyright &copy; 2020 - 2025 Conrad Taylor. All rights reserved.
