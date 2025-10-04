@@ -7,15 +7,15 @@ The purpose of this step by step tutorial is to provide a very simple example of
 - [Docker Desktop for Mac
   ](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
 
-- Node 20.14.0 or newer
+- Node 22.20.0 or newer
 
-- Rails 6.1.7.7 or newer
+- Rails 6.1.7.10 or newer
 
-- Ruby 3.3.2 or newer
+- Ruby 3.4.5 or newer
 
-- Yarn 1.22.19 or newer
+- Yarn 1.22.22 or newer
 
-Note: This tutorial was updated on macOS 14.5.
+Note: This tutorial was updated on macOS 26.0.1.
 
 ## Communication
 
@@ -170,4 +170,4 @@ This repository is released under the [MIT License](./LICENSE.md).
 
 ## Copyright
 
-Copyright &copy; 2020 - 2024 Conrad Taylor. All rights reserved.
+Copyright &copy; 2020 - 2025 Conrad Taylor. All rights reserved.
